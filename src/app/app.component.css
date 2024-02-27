@@ -1,0 +1,73 @@
+*{
+    font-family: Roboto, Arial, sans-serif;
+    color: #3C3633;
+}
+
+#principal{
+    background: #EEEDEB;
+    padding: 3rem;
+    display: flex;
+    border-radius: 2rem;
+}
+
+#imagem-div{
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: #3C3633 5px solid;
+    margin: auto;
+}
+
+#perfil{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.container{
+    margin-left: 8rem;
+}
+
+#esquerda{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+#direita{
+    border-left: #3C3633 1px solid;
+    padding-left: 5rem;
+}
+
+#direita h3{
+  text-decoration: underline;
+}
+
+.data{
+    font-style: italic;
+    font-size: small;
+}
+
+#redes-sociais li{
+    list-style: none;
+    padding-left: 2rem;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    margin-top: 1rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+#github{
+  background-image: url('../assets/github.png');
+}
+
+#linkedin{
+  background-image: url('../assets/linkedin.png');
+}
+
+#email{
+  background-image: url('../assets/email.png');
+}
